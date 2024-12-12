@@ -1,0 +1,142 @@
+.contact-form {
+    background: #fff;
+    padding: 5px;
+    border-radius: 8px;
+    margin-left: 250px;
+    margin-top: -60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box; 
+    transform: translateY(30%);
+}
+.art3 {
+    position:right;
+}
+.contact-form h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.contact-form button {
+    background-color: #746757;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+.contact-form button:hover {
+    background-color: #5a4e45;
+}
+body {
+    background-color:#e7dfd8;
+}
+header {
+    font-family: "Montserrat", sans-serif;
+    font-size:30px;
+    font-weight: 500;
+    font-style: bold;
+    background-color:#746757;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    margin: -10px;
+}
+.header-img {
+    width: 67px;
+    height: 67px;
+    border-radius:0;
+    left: 30px; 
+    top: 80px; 
+    transform: translateY(-90%); 
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    position: relative;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: #555;
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+nav ul li:hover ul {
+    display: block;
+}
+nav ul li ul li {
+    width: 200px;
+}
+nav ul li ul li a {
+    padding: 10px;
+}
+nav ul li ul li a:hover {
+    background-color: #555;
+}
+li {
+    margin-right: 250px;
+}
+p {
+    text-align: center;
+    font-size:13px;
+    font-family: "Playwrite HR Lijeva";
+    padding:-10px;
+}
+img {
+    border-radius: 30px;
+    position: absolute;
+    right: 200px;
+    top: 50%; 
+    transform: translateY(-50%);
+}
+footer {
+    background-color:#ff914d;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: bold;
+    margin: -10px;
+}

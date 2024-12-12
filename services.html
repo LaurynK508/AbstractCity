@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="tablestyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&family=Sarina&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li style="margin-right: 60px; margin-bottom: 0px;"><a href="Index.html">HOME</a></li>
+                <li style="border-right-width: 6px; border-right-width: 60px; padding-right: 60px;"><a href="portfolio.html">PORTFOLIO</a></li>
+                <li style="margin-right: 60px; margin-bottom: 0px;"><a href="seo.html">SEO</a></li>
+                <li style="margin-right: 60px; margin-bottom: 0px;"><a href="services.html">SERVICES</a></li>
+            </ul>
+        </nav>
+        <img src="Images/abstract.png" alt="Abstract" class="header-img">
+    </header>
+    <form action="/submit-commission" method="post">
+        <label>Delivery Options:</label><br>
+        <input type="checkbox" name="delivery" value="digital"> Digital Copy (Email)<br>
+        <input type="checkbox" name="delivery" value="physical"> Physical Copy (Mail)<br>
+        <input type="checkbox" name="delivery" value="both"> Both<br>
+        <input type="submit" value="Submit">
+    </form>
+<h2 class="outset">Available Commission Options</h2>
+<table border="10px">
+    <tr>
+        <th>Option</th>
+        <th>Choices</th>
+    </tr>
+    <tr>
+        <td>Service Options</td>
+        <td>
+            <input type="checkbox" name="service" value="portrait"> Portrait<br>
+            <input type="checkbox" name="service" value="landscape"> Landscape<br>
+            <input type="checkbox" name="service" value="digital"> Digital Art<br>
+            <input type="checkbox" name="service" value="traditional"> Traditional Art<br>
+        </td>
+    </tr>
+    <tr>
+        <td>Additional Features</td>
+        <td>
+            <input type="checkbox" name="features" value="background"> Background<br>
+            <input type="checkbox" name="features" value="extra-characters"> Extra Characters<br>
+            <input type="checkbox" name="features" value="shading"> Detailed Shading<br>
+            <input type="checkbox" name="features" value="frame"> Custom Frame<br>
+        </td>
+    </tr>
+    <tr>
+        <td>Preferred Style</td>
+        <td>
+            <input type="checkbox" name="style" value="realistic"> Realistic<br>
+            <input type="checkbox" name="style" value="cartoon"> Cartoon<br>
+            <input type="checkbox" name="style" value="abstract"> Abstract<br>
+            <input type="checkbox" name="style" value="minimalist"> Minimalist<br>
+        </td>
+    </tr>
+    <tr>
+        <td>Delivery Options</td>
+        <td>
+            <input type="checkbox" name="delivery" value="digital"> Digital Copy (Email)<br>
+            <input type="checkbox" name="delivery" value="physical"> Physical Copy (Mail)<br>
+            <input type="checkbox" name="delivery" value="both"> Both<br>
+        </td>
+    </tr>
+    <tr>
+        <td>Budget Range</td>
+        <td>
+            <input type="checkbox" name="budget" value="50-100">$50 - $100<br>
+            <input type="checkbox" name="budget" value="100-200">$100 - $200<br>
+            <input type="checkbox" name="budget" value="200-500">$200 - $500<br>
+            <input type="checkbox" name="budget" value="500+">$500+<br>
+        </td>
+    </tr>
+</table>
+<h2 class="outset">Additional Information</h2>
+<table border="10px">
+    <tr>
+        <th>Option</th>
+        <th>Choices</th>
+    </tr>
+    <tr>
+        <td>How Did You Hear About Me?</td>
+        <td>
+            <input type="checkbox" name="service" value="social">Social Media<br>
+            <input type="checkbox" name="service" value="engine">Search Engine<br>
+            <input type="checkbox" name="service" value="mutual">Friend/Family<br>
+            <input type="checkbox" name="service" value="traditional">Advertisement<br>
+            <input type="checkbox" name="service" value="mutual">Event<br>
+            <input type="checkbox" name="service" value="traditional">Other<br>
+        </td>
+    </tr>
+</table>
+<footer>
+    <p> 2024 My Web Page. All Rights Reserved.</p>
+    <nav>
+        <ul>
+            <li><a href="Index.html">CUSTOMER CARE</a></li>
+            <li><a href="ContactForm.html">CONNECT</a></li>
+        </ul>
+    </nav>
+</footer>
+</body>
+</html>
